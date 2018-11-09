@@ -1,0 +1,15 @@
+{
+  "name": "create-ethereum-wallet",
+  "version": "1.0.0",
+  "description": "# step 2: open terminal and cd to create-ethereum-wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.9"
+  }
+}
