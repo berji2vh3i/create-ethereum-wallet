@@ -1,6 +1,6 @@
 const ethers = require('ethers');
 const fs = require('fs');
-let num = 10;
+let num = 1000;
 let type = () => {
     return '.html';
 }
@@ -14,5 +14,5 @@ for (let i = 0; i < num; i++) {
     wallet.privateKey = (newWallet.signingKey.privateKey).slice(2, 66);
     wallet.mnemonic = newWallet.signingKey.mnemonic;
     fs.appendFileSync('./wallet' + type(), JSON.stringify(wallet) + ',\n', 'utf8');
-    console.log('success');
+    console.log('success' + i);
 }
